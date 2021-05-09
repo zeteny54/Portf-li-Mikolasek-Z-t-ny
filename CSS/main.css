@@ -1,0 +1,82 @@
+body{
+	background-color: white;
+	font-family: 'Playfair Display', serif;
+	margin: 0px
+}
+
+/*fejléc*/
+header{
+	background-color: black;
+	color: white;
+	text-align: center;
+	border: 2px solid black;
+	font-size: 150%
+}
+#pf{
+	color: rgb(240, 0, 0)
+}
+
+/*menürendszer*/
+li {
+  	display: inline;
+  	float: left;
+  	border-right: 1px solid #bbb;
+}
+li:last-child {
+  	border-right: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+li a:hover {
+  background-color: #111;
+}
+.active {
+  background-color: rgb(240, 0, 0);
+}
+
+/*háttér beállítása*/
+.hatter1{
+	background-image: url(kepek/uSXMfg.jpg);
+	background-size: cover;
+	height: 600px;
+}
+
+/*arckép+adatok*/
+.tanu{
+	width: 40%
+	margin-right: 40%;
+	margin-left: 10%;
+	margin-top: 70px;
+    border: 0px solid rgb(240, 0, 0);
+}
+
+/*Önéletrajz cím*/
+#ön{
+	text-align: center;
+    font-size: 30px;
+    margin-top: 0px;
+    padding-top: 30px;
+}
+
+/*kép beállításai*/
+img{
+	float:left;
+	margin-right: 100px;
+	min-width: 200px;
+
